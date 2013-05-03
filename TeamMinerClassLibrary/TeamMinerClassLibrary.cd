@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TeamMinerClassLibrary.UserAccount">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEEAAAADAAAAAgwQAEAAMACAQCAAwEAAAA=</HashCode>
+      <FileName>UserAccount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.Building">
+    <Position X="7.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAABAASEAAAEhgQAEBANAAAACgAAAAAAA=</HashCode>
+      <FileName>Building.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.InventoryItem">
+    <Position X="14" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ARQEAAAABAAAAAAACAAAAAgghAEBAsAAAAAAAAAQAAA=</HashCode>
+      <FileName>InventoryItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.MapCell">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIIAAACCAAAAAAgAAAAAAgQAEAAMAAAQCAAAEAAAA=</HashCode>
+      <FileName>MapCell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.StackItem">
+    <Position X="3.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEJAAARCCAAcAAggCAAAAgAAEAAMAAABAAAAAQAAQ=</HashCode>
+      <FileName>StackItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.SharedItem">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAABBAAAAAACAAAAAggBAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>SharedItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.Tool">
+    <Position X="10" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABwAAAAIAAAAAIAACAQAAAgkAAEAAEAAAAAAAAAQAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.AbstractPersistenceMgr">
+    <Position X="6.5" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAABgAAAAAAAMAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractDataConnect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TeamMinerClassLibrary.DatabaseAccessInfo" Collapsed="true">
+    <Position X="13.5" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>DatabaseAccessInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamMinerClassLibrary.AppConfigXmlSerializerSectionHandler" Collapsed="true">
+    <Position X="13.5" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppConfigXmlSerializerSectionHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TeamMinerClassLibrary.IPersistenceMgr">
+    <Position X="4.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataConnect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TeamMinerClassLibrary.IDataAccessObject">
+    <Position X="0.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataAccessObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

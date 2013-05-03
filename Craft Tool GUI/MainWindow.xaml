@@ -1,0 +1,51 @@
+﻿<Window x:Class="Craft_Tool_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tool Crafting" Height="350" Width="548" Icon="/Images/favicon.ico">
+    <Grid Background="#FF5683CB">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="152*" />
+            <RowDefinition Height="159*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="245*" />
+            <ColumnDefinition Width="258*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Height="134" HorizontalAlignment="Left" Margin="12,8,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="222" Fill="LightBlue" />
+        <Rectangle Grid.Column="1" Height="134" HorizontalAlignment="Left" Margin="28,8,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="230" Fill="LightBlue" />
+        <Rectangle Grid.Row="1" Height="134" HorizontalAlignment="Left" Margin="18,18,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" Width="216" Fill="LightBlue" />
+        <Rectangle Grid.Column="1" Grid.Row="1" Height="134" HorizontalAlignment="Left" Margin="33,18,0,0" Name="rectangle4" Stroke="Black" VerticalAlignment="Top" Width="225" Fill="LightBlue" />
+        <Button Content="Craft Stone Pick" Height="23" HorizontalAlignment="Left" Margin="33,111,0,0" Name="button1" VerticalAlignment="Top" Width="121" Click="stonePickBtn" Grid.Column="1" />
+        <Button Content="Craft Stone Hammer" Height="23" HorizontalAlignment="Left" Margin="24,111,0,0" Name="button2" VerticalAlignment="Top" Width="121" Click="stoneHammerBtn" />
+        <Button Content="Craft Iron Pick" Height="23" HorizontalAlignment="Left" Margin="33,124,0,0" Name="button3" VerticalAlignment="Top" Width="121" Click="ironPickBtn" Grid.Row="1" OpacityMask="#FFD30000" Grid.Column="1"></Button>
+        <Button Content="Craft Iron Hammer" Height="23" HorizontalAlignment="Left" Margin="24,124,0,0" Name="button4" VerticalAlignment="Top" Width="121" Grid.Row="1" OpacityMask="#FFD30000" Click="ironHammerBtn"></Button>
+        <Image Height="91" HorizontalAlignment="Left" Margin="24,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="121" Source="/Craft Tool GUI;component/CraftImages/stoneaxe.png" />
+        <Image Height="91" HorizontalAlignment="Left" Margin="33,12,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="121" Grid.Column="1" Source="/Craft Tool GUI;component/CraftImages/ironpick.png" />
+        <Image Height="91" HorizontalAlignment="Left" Margin="40,25,0,0" Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="121" Grid.Row="1" OpacityMask="#FFD30000" Source="/Craft Tool GUI;component/CraftImages/diamondpick.png" Grid.Column="1"></Image>
+        <Image Height="91" HorizontalAlignment="Left" Margin="24,25,0,0" Name="image4" Stretch="Fill" VerticalAlignment="Top" Width="121" Grid.Row="1" OpacityMask="#FFD30000" Source="/Craft Tool GUI;component/CraftImages/diamondaxe.png"></Image>
+        <Label Content="Wood: 2" Height="33" HorizontalAlignment="Left" Margin="153,0,0,91" Name="label1" VerticalAlignment="Bottom" Width="70" />
+        <Label Content="Stone: 1" Height="31" HorizontalAlignment="Left" Margin="153,42,0,0" Name="label2" VerticalAlignment="Top" Width="61" />
+        <Label Content="Items Needed" HorizontalAlignment="Left" Margin="140,12,0,116" Name="label3" Width="94" Foreground="White" FontWeight="Bold" />
+        <Label Content="Wood: 2" Height="33" HorizontalAlignment="Left" Margin="165,0,0,91" Name="label4" VerticalAlignment="Bottom" Width="70" Grid.Column="1" />
+        <Label Content="Stone: 3" Height="31" HorizontalAlignment="Left" Margin="165,42,0,0" Name="label5" VerticalAlignment="Top" Width="61" Grid.Column="1" />
+        <Label Content="Items Needed" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="164,12,0,116" Name="label6" Width="94" Grid.Column="1" />
+        <Label Content="Wood: 2" Height="33" HorizontalAlignment="Left" Margin="153,0,0,88" Name="label7" VerticalAlignment="Bottom" Width="70" Grid.Row="1" />
+        <Label Content="Iron: 1" Height="31" HorizontalAlignment="Left" Margin="153,52,0,0" Name="label8" VerticalAlignment="Top" Width="61" Grid.Row="1" />
+        <Label Content="Items Needed" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="140,22,0,112" Name="label9" Width="94" Grid.Row="1" />
+        <Label Content="Wood: 2" Height="33" HorizontalAlignment="Left" Margin="165,0,0,88" Name="label10" VerticalAlignment="Bottom" Width="70" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Iron: 3" Height="31" HorizontalAlignment="Left" Margin="165,52,0,0" Name="label11" VerticalAlignment="Top" Width="61" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Items Needed" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="164,22,0,112" Name="label12" Width="94" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Wood:" Height="33" HorizontalAlignment="Left" Margin="153,0,0,36" Name="lblSHWood" VerticalAlignment="Bottom" Width="70" />
+        <Label Content="Stone:" Height="31" HorizontalAlignment="Left" Margin="153,97,0,0" Name="lblSHStone" VerticalAlignment="Top" Width="61" />
+        <Label Content="Current Items" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="140,67,0,61" Name="label15" Width="94" />
+        <Label Content="Wood:" Grid.Column="1" Height="33" HorizontalAlignment="Left" Margin="165,0,0,36" Name="lblSPWood" VerticalAlignment="Bottom" Width="70" />
+        <Label Content="Stone:" Grid.Column="1" Height="31" HorizontalAlignment="Left" Margin="165,97,0,0" Name="lblSPStone" VerticalAlignment="Top" Width="61" />
+        <Label Content="Current Items" FontWeight="Bold" Foreground="White" Grid.Column="1" HorizontalAlignment="Left" Margin="164,67,0,61" Name="label18" Width="94" />
+        <Label Content="Wood:" Grid.Row="1" Height="33" HorizontalAlignment="Left" Margin="153,0,0,33" Name="lblIHWood" VerticalAlignment="Bottom" Width="70" />
+        <Label Content="Iron:" Grid.Row="1" Height="31" HorizontalAlignment="Left" Margin="153,107,0,0" Name="lblIHIron" VerticalAlignment="Top" Width="61" />
+        <Label Content="Current Items" FontWeight="Bold" Foreground="White" Grid.Row="1" HorizontalAlignment="Left" Margin="140,77,0,57" Name="label21" Width="94" />
+        <Label Content="wood" Grid.Column="1" Grid.Row="1" Height="33" HorizontalAlignment="Left" Margin="165,0,0,33" Name="lblIPWood" VerticalAlignment="Bottom" Width="70" />
+        <Label Content="Iron:" Grid.Column="1" Grid.Row="1" Height="31" HorizontalAlignment="Left" Margin="165,107,0,0" Name="lblIPIron" VerticalAlignment="Top" Width="61" />
+        <Label Content="Current Items" FontWeight="Bold" Foreground="White" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Margin="164,77,0,57" Name="label24" Width="94" />
+    </Grid>
+</Window>
